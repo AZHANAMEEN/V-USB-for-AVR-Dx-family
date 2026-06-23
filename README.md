@@ -71,7 +71,7 @@ oddebug.h .............. Interface definitions of the debug module. 
   --I have skipped the termination resistors for now and im running at 3.3v so no need of zeners, a simple config to test software. 
 
   
-  -- next step would be to connect the updi programmer to pin 19, you can make a simple updi programmer with a serial adapter using its rx and tx pin with a 4.7k resistor in seies with *only* the tx pin and connect both to the updi pin ((i have used a ftdi usb to uart adapter for this)).
+  -- next step would be to connect the updi programmer to pin 19 (on the avr64da28), you can make a simple updi programmer with a serial adapter using its rx and tx pin with a 4.7k resistor in seies with *only* the tx pin and connect both to the updi pin ((i have used a ftdi usb to uart adapter for this)).
 
 
   -- You can head over to the github page [DXCore GitHub Repository](https://github.com/SpenceKonde/DxCore) for arduno ide installation. which you can use the library with in arduino ide. 
