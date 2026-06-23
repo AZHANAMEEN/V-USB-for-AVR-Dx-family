@@ -1,6 +1,6 @@
 # V-USB for AVR Dx family
 
-This is a port of the classic v usb library for avr chips to bitbang usb, to the newer avr dx lineup (only hardware tested on da chips specifically the AVR64DA28, it compiles sucesfully using the arduino ide for dd and du chips too)
+This is a port of the classic v usb library for avr chips to bitbang usb, to the newer avr dx lineup (only hardware tested on da chips specifically the AVR64DA28, it compiles successfully using the arduino ide for dd and du chips too)
 # Project Structure 
 /--------examples--------/
 
@@ -12,9 +12,9 @@ A single button keyboard example that types "A".
 
 All are in .ino format so you can install the library and then open any one of them to test it out. 
 
-/--------vusb licences and vid pid info--------/
+/--------vusb licenses and vid pid info--------/
 
-Licences and usb vid/pid usage info carried on from the orignal repo, orignal developer- "OBJECTIVE DEVELOPMENT"
+Licences and usb vid/pid usage info carried on from the original repo, original developer- "OBJECTIVE DEVELOPMENT"
 
 /--------usbdrv--------/
 
@@ -76,7 +76,7 @@ oddebug.h .............. Interface definitions of the debug module. 
 
   -- You can head over to the github page [DXCore GitHub Repository](https://github.com/SpenceKonde/DxCore) for arduno ide installation. which you can use the library with in arduino ide. 
 
-  -- Now dial in your chip settings in dxcore options and choose youe chip and the 16mhz setting **for now** as 24mhz currently isn not working properly 
+  -- Now dial in your chip settings in dxcore options and choose youe chip and the 16mhz setting **for now** as 24mhz currently is not working properly 
 
   -- Just add the usbdrv folder to your libraries folder and you are good to go.
 
