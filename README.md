@@ -102,4 +102,6 @@ tbd
 
 --16Mhz working for hid devices--
 
---24Mhz still has issues--
+<del>--24Mhz still has issues--</del>
+
+--24 mhz finally working thanks to Vasco santos (vslinuxdotnet)--
