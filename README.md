@@ -1,6 +1,7 @@
 # V-USB for AVR Dx family
 
-This is a port of the classic v usb library for avr chips to bitbang usb, to the newer avr dx lineup (only hardware tested on da chips specifically the AVR64DA28, it compiles successfully using the arduino ide for dd and du chips too)
+This is a port of the classic v usb library for avr chips to bitbang usb, to the newer avr dx lineup (only hardware tested on da chips specifically the AVR64DA28 and the AVR128DB26 By   vslinuxdotnet (it compiles successfully using the arduino ide for dd and du chips too)
+
 # Project Structure 
 /--------examples--------/
 
@@ -27,7 +28,7 @@ usbdrv.c ............... High level language part of the driver. 
 
 usbdrvasm16.inc ......... Assembler routines for 16 MHz clock .
 
-usbdrvasm24.inc ......... Assembler routines for 24 MHz clock .(under work)
+usbdrvasm24.inc ......... Assembler routines for 24 MHz clock . <del>(under work)<del>
 
 asmcommon.inc .......... Common assembler routines. Included by usbdrvasm*.inc, don't link it directly!
                            
@@ -93,10 +94,6 @@ oddebug.h .............. Interface definitions of the debug module. 
   -- For making custom configs use the "usbconfig-prototype.h" or use the already provided for generic hid keyboard. 
 
   -- THANK YOU VERY MUCH!
-
-# Some circuits 
-
-tbd
 
 # progress
 
