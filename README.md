@@ -77,13 +77,13 @@ oddebug.h .............. Interface definitions of the debug module. 
 
   -- You can head over to the github page [DXCore GitHub Repository](https://github.com/SpenceKonde/DxCore) for arduno ide installation. which you can use the library with in arduino ide. 
 
-  -- Now dial in your chip settings in dxcore options and choose youe chip and the 16mhz setting **for now** as 24mhz currently is not working properly 
+  -- Now dial in your chip settings in dxcore options and choose youe chip and the 16Mhz setting or 24Mhz which works now. 
 
   -- Just add the usbdrv folder to your libraries folder and you are good to go.
 
   -- head over to the examples in *Examples* folder in the repo and look at some of them.
 
-  -- please note that you cannot mention usbdrv.h using the #include<> syntax rather use this 
+  -- please note that you **cannot** mention usbdrv.h using the #include<> syntax rather use this 
   
     
     extern "C" {
